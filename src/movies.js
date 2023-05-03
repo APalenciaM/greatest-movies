@@ -65,7 +65,8 @@ function orderByYear(moviesArray) {
     }
     console.log(newArray);
     console.log("-------------------------")
-    newArray = newArray.sort((a, b) => a - b );
+    newArray = newArray.sort((a, b) =>
+            a.year - b.year);
     console.log(newArray);
     return newArray;
 }
